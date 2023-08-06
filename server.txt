@@ -1,0 +1,16 @@
+POST   http://localhost:3006/login
+JSON:
+{
+        "login": "ayoub1@gmail.com",
+        "password": "tajjo#test"
+    }
+(test login)
+
+-------------------------------------
+POST   http://localhost:3006/signup
+JSON:
+{
+        "login": "name@gmail.com",
+        "password": "pass#test"
+    }
+(add new user)
